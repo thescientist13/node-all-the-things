@@ -1,0 +1,28 @@
+{
+  "name": "node-all-the-things",
+  "version": "1.0.0",
+  "description": "A demonstration repo of a lot of great new native NodeJS features",
+  "keywords": [
+    "NodeJS",
+    "TypeScript",
+    "testing"
+  ],
+  "author": "Owen Buckley <owen@thegreenhouse.io>",
+  "license": "MIT",
+  "main": "src/server.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thescientist13/node-all-the-things.git"
+  },
+  "scripts": {
+    "dev": "node --watch .",
+    "start": "node .",
+    "check:types": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^24.3.1",
+    "fastify": "^5.6.0",
+    "typescript": "^5.9.2"
+  }
+}
