@@ -15,6 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/thescientist13/node-all-the-things.git"
   },
+  "imports": {
+    "#*": "./src/*"
+  },
   "scripts": {
     "dev": "node --watch .",
     "start": "node .",
