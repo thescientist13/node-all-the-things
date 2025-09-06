@@ -35,10 +35,10 @@ To run tests:
 $ npm run test
 ```
 
+> ⚠️ _There is a [known issue](https://github.com/nodejs/node/issues/59163) in the test runner when needing to mock the same module multiple times in a single test suite.  Though there does appear to be a workaround in the linked issue._
+
 To check types, run:
 
 ```sh
 $ npm run check:types
 ```
-
-> ⚠️ _There is a [known issue](https://github.com/nodejs/node/issues/59163) in the test runner when needing to mock the same module multiple times in a single test suite.  Though there does appear to be a workaround in the linked issue._
