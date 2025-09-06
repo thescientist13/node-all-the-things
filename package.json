@@ -4,6 +4,7 @@
   "description": "A demonstration repo of a lot of great new native NodeJS features",
   "keywords": [
     "NodeJS",
+    "ESM",
     "TypeScript",
     "testing"
   ],
