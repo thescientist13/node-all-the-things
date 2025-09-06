@@ -1,9 +1,11 @@
-import { app } from '#app.ts';
+import { app } from "#app.ts";
+
+const port = 3000;
 
 // Run the server!
 try {
-  await app.listen({ port: 3000 })
+  await app.listen({ port });
 } catch (err) {
-  app.log.error(err)
-  process.exit(1)
+  app.log.error(err);
+  process.exit(1);
 }

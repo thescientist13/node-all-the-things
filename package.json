@@ -21,6 +21,7 @@
   "scripts": {
     "dev": "node --watch .",
     "start": "node .",
+    "test": "node --test",
     "check:types": "tsc"
   },
   "dependencies": {
