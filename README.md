@@ -13,7 +13,7 @@ All in ESM. 💯
 
 1. Have Node (LTS) `>=22.18.0` installed (or run `nvm use`)
 1. Clone the repo
-1. Run `npm i`
+1. Run `npm ci`
 
 ## Commands
 
