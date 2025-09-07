@@ -1,6 +1,6 @@
 import { app } from "#app.ts";
 
-const port = 3000;
+const port = process.env.PORT ?? 8080;
 
 // Run the server!
 try {
@@ -9,3 +9,4 @@ try {
   app.log.error(err);
   process.exit(1);
 }
+

@@ -20,8 +20,8 @@
     "#*": "./src/*"
   },
   "scripts": {
-    "dev": "node --watch .",
-    "start": "node .",
+    "dev": "node --env-file=.env --watch .",
+    "start": "node --env-file=.env .",
     "test": "node --test",
     "check:types": "tsc"
   },
