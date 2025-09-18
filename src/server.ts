@@ -1,6 +1,6 @@
 import { app } from "#app.ts";
 
-const port = process.env.PORT ?? 8080;
+const port = parseInt(process.env.PORT) ?? 8080;
 
 // Run the server!
 try {
